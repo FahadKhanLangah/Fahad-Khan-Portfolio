@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  justify-content: center;
+  /* margin: 0 auto 60px; */
+}
+h1,h2{
+  text-transform: uppercase;
+  font-family: 'Robotto Mono', monospace;
+}
+h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+}
+h2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+  font-family: 'Robotto Mono', monospace;
+  font-size: 20px;
+}

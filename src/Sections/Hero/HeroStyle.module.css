@@ -1,0 +1,82 @@
+.container{
+    background-color: rgb(21, 21, 25);
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    height: 100dvb;
+    min-height: 500px;
+    transition: 1s;
+    .hero{
+        width: 200px;
+        border-radius: 50%;
+    }
+    span{
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+    }
+    a{
+        margin: 0;
+        width: -moz-fit-content;
+        width: fit-content;
+    }
+    img{
+        width: 30px;
+    }
+    button {
+        width: 200px;
+        height: 40px;
+        border-radius: 10px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    button:hover{
+        background-color: darkorange;
+        transform: scale(1.15);
+        transition: .5s;
+    }
+}
+.containerLight{
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    height: 100dvb;
+    min-height: 500px;
+    transition: 1s;
+    .hero{
+        width: 200px;
+        border-radius: 50%;
+    }
+    span{
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+    }
+    a{
+        margin: 0;
+        width: -moz-fit-content;
+        width: fit-content;
+    }
+    img{
+        width: 30px;
+    }
+    button {
+        width: 200px;
+        height: 40px;
+        border-radius: 10px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    button:hover{
+        background-color: darkorange;
+        transform: scale(1.15);
+        transition: .5s;
+    }
+}
