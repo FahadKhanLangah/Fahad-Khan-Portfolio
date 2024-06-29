@@ -1,0 +1,8 @@
+.Container{
+    text-align: center;
+    h1{
+        font-size: 20px;
+        color: rgb(233, 175, 98);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}

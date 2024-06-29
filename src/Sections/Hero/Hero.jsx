@@ -33,10 +33,10 @@ function Hero() {
                     <a href="https://twitter.com/" target='_blank'>
                     <img src={darkTheme ? twitterIcon : twitterIconDark} alt="Fahad Khan Twitter Icon Link" />
                     </a>
-                    <a href="https://linkedin.com/" target='_blank'>
+                    <a href="https://www.linkedin.com/in/fahad-khan-b9107b317" target='_blank'>
                     <img src={darkTheme ? linkedinIcon : linkedinIconDark} alt="Fahad Khan Linkedin Icon Link" />
                     </a>
-                    <a href="https://Github.com/" target='_blank'>
+                    <a href="https://github.com/FahadKhanLangah/Fahad-Khan-Portfolio" target='_blank'>
                     <img src={darkTheme ? githubIcon : githubIconDark} alt="Fahad Khan GitHub Icon Link" />
                     </a>
                 </span>

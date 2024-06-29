@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+textarea , input:not([type='submit']){
+    height: 50px;
+    width: 350px;
+    padding-left: 10px;
+}
+textarea{
+    height: 100px;
+}
+textarea , input{
+    justify-self: center;
+    border: 2px slategrey solid;
+    border-radius: 10px;
+}
+input[type='submit']{
+    background-color: blue ;
+    color: white;
+    transition: .5s;
+    width: 100px;
+    height: 50px;
+    font-size: larger;
+    font-weight: bolder;
+}
+input[type='submit']:hover{
+    transform: scale(1.10);
+    background-color: darkorange;
+}
+@media (width>=800px) {
+    textarea , input:not([type='submit']){
+        width: 500px;
+        font-size: 20px;
+        padding-left: 20px;
+    }
+}

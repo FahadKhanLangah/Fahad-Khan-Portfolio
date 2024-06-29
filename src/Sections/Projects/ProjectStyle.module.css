@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    .img{
+        width: 250px;
+    }
+    a{
+        width: -moz-fit-content;
+        width: fit-content;
+        transition: .5s;
+        text-decoration: none;
+    }
+    a:hover{
+        transform: scale(1.05);
+    }
+}
+.projectContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (width>=800px) {
+    .projectContainer{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
